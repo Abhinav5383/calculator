@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-import CalcBody from './components/CalcBody';
+import CalcBody from './components/Main/CalcBody';
 import './App.css';
 
 function App() {
