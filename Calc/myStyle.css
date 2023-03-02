@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Barlow', 'monospace';
+  background: #eee;
+  max-width: 100%;
+  width: 100%;
+}
+
+.calcContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 83vh;
+  min-height: 100dvh;
+}
+
+.calcContainer .calculator{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 320px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  height: fit-content;
+}
+
+@media screen and (min-width: 800px) {
+  .calcContainer .calculator{
+    width: 720px;
+    border-radius: 15px;
+  }
+}
+
+.calculator #value{
+  color: #4b5fcc;
+  width: 85%;
+  background: white;
+  text-align: end;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 800px) {
+  .calculator #value{
+    padding: 15px 25px;
+    border-radius: 15px;
+  }
+}
+
+.calculator .buttons{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  width: 100%;
+  height: fit-content;
+}
+
+.buttons .btn{
+  text-align: center;
+  background: white;
+  height: 80px;
+}

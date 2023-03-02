@@ -24,8 +24,8 @@ function CalcBody() {
           <span className="three 3" dataValue="3">3</span>
           <span className="equal Enter =" dataValue="=">=</span>
           <span className="double-zero 00" dataValue="00">
-            <i className="zero1" dataValue="0">0</i>
-            <i className="zero2" dataValue="0">0</i>
+            <p className="zero1" dataValue="0">0</p>
+            <p className="zero2" dataValue="0">0</p>
           </span>
           <span className="zero 0" dataValue="0">0</span>
           <span className="point ." dataValue=".">.</span>
